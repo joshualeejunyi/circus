@@ -12,6 +12,9 @@ import circus.stuff.Cannon;
 import circus.stuff.Equipment;
 import circus.stuff.Ladder;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Circus {
     private static Animal[] animals = {
             new Duck("Drake"),
@@ -45,7 +48,7 @@ public class Circus {
     }
 
     private static void printAllAnimals(ArrayList<Animal> animalArrayList) {
-        for (Animal a: animalArrayList) {
+        for (Animal a : animalArrayList) {
             System.out.println(a);
         }
     }
